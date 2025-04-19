@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="header">Example liner layout</string>
+    <string name="header_2">Example relativ layout</string>
+    <string name="header_3">Example frame layout</string>
+    <string name="app_name">practise 3</string>
+    <string name="button_1_text">Go to second activity</string>
+    <string name="button_2_text">Go to third activity</string>
+    <string name="button_3_text">Back</string>
+    <string name="input_text">Input text:</string>
+
+</resources>
