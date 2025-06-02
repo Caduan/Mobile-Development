@@ -70,12 +70,10 @@ public class MainActivity extends AppCompatActivity {
 						String url = response.body().getUrl();
 
 						//Проверка: загружаем только изображения
-						if (url.endsWith(".jpg") || url.endsWith(".jpeg") || url.endsWith(".png") || url.endsWith(".gif")) {
+						if (url.endsWith(".jpg") || url.endsWith(".jpeg") || url.endsWith(".png") || url.endsWith(".gif") || url.endsWith(".mp4")){
 							Glide.with(MainActivity.this)
 									.load(url)
 									.into(dogImage);
-						} else {
-							Toast.makeText(MainActivity.this, "Не изображение: " + url, Toast.LENGTH_SHORT).show();
 						}
 
 					} else {

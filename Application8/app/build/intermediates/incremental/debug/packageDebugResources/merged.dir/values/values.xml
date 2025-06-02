@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Prac8</string>
+    <style name="Base.Theme.Prac8" parent="Theme.Material3.Dark.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Prac8" parent="Base.Theme.Prac8"/>
+</resources>
